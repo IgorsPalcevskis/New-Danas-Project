@@ -8,13 +8,10 @@ body {
 	background-color: #D7EFA8;
 	box-shadow: 2px 2px 4px 8px #008000;
 }
-
-
 .row {
 	margin: 0px;
 	padding:0px;
 }
-
  h1 {
 	text-align: center;
 	float: center;
@@ -38,29 +35,29 @@ h1:hover {
 
 font-weight: bold;
   text-shadow: 3px 3px 5px #95d097;
-	
-	
+
+
 }
 h2:hover {
 	font-weight: bold;
   text-shadow: 3px 3px 5px #95d097;
 
-	
+
 }
 
-#myNavbar span { 
-margin-right: 5px; 
+#myNavbar span {
+margin-right: 5px;
 }
 
 #myNavbar ul li a{
 	margin: 3px;
 border-radius: 15px;
 color: white;
-	
+
 }
 
 #myNavbar ul li a:hover {
-color: red;	
+color: red;
 }
 
 #myNavbar ul li:hover {
@@ -89,7 +86,7 @@ border: transparent;
 
 font-weight: bold;
 padding:5px;
-margin:5px;	
+margin:5px;
 }
 
 
@@ -103,17 +100,12 @@ margin:5px;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
- 
+
     background-color: black;
 }
 
-
 #wrapper {
-	
-	margin: 0 auto;
-}
-
-#wrapper {
+  text-align:center;
   perspective: 2500;
 	-webkit-perspective: 2500;
 	margin-top: 40px;
@@ -152,7 +144,6 @@ margin:5px;
 }
 
 #image {
-
 	margin: 0 auto;
 	height: 300px;
 	width: 400px;
@@ -168,11 +159,11 @@ margin:5px;
 	position: absolute;
 	height: 300px;
 	width: 400px;
-  border-radius: 25px;
 	background-color:  none;
 	text-align: center;
 	font-size: 13em;
 	color: #fff;
+  overflow: hidden;
 }
 
 #image > .i1 {
@@ -233,9 +224,13 @@ margin:5px;
 }
 
 img {
-  border-radius: 25px;
-  max-height: 300px;
-  max-width:400px;
+  width:100%;
+  position: relative;
+  top: -30%;
+}
+
+.footer_fb_image {
+  width: auto;
 }
 
 h4 {
@@ -272,4 +267,3 @@ footer a:hover {
 
 
 }
-
