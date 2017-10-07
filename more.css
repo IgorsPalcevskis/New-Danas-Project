@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  font-family: 'Dancing Script', cursive;
+  background-color: #E8F5CC;
+}
+
+.jumbotron {
+	background-color: #D7EFA8;
+}
+
+.row {
+	margin: 0px;
+	padding:0px;
+}
+
+ p {
+  margin: 100%;
+  margin: 5px;
+  font-style: oblique;
+}
+h2 {
+	text-align: left;
+  font-weight: bold;
+  margin: 100%;
+  margin: 5px;
+  font-style: oblique;
+}
+
+h1:hover {
+
+font-weight: bold;
+  text-shadow: 3px 3px 5px #95d097;
+	
+	
+}
+h2:hover {
+	font-weight: bold;
+  text-shadow: 3px 3px 5px #95d097;
+}
+
+
+#myNavbar span { margin-right: 5px; }
+
+#myNavbar ul li a{
+	margin: 3px;
+border-radius: 15px;
+color: white;	
+}
+
+#myNavbar ul li a:hover {
+color: red;	
+}
+
+#myNavbar ul li:hover {
+border-style: dotted;
+border-width: 2px;
+border-color: red;
+border-radius: 15px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: red;
+}
+
+.navbar {
+background-color: #008000;
+border-radius: 15px;
+border: transparent;
+}
+
+.navbar a {
+
+color: white;
+font-weight: bold;
+padding:5px;
+margin:5px;	
+}
+
+.navbar-brand p {
+font-size: 23px;
+color: black;
+  font-style: oblique;
+font-weight: bold;
+padding:5px;
+margin:5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: black;
+}
+
+.media-object {
+	margin:2px;
+	height:140px;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+   -webkit-transform: rotate( 3deg);
+  -moz-transform: rotate( 3deg);
+  -o-transform: rotate( 3deg);
+  -ms-transform: rotate( 3deg);
+  transform: rotate( 3deg);
+}
+
+#left {
+        width: 95%;
+        float: center;
+        padding: 5px;
+        margin: 10px;
+       
+}
+
+footer {
+    background-color: #223B25;
+	border-radius: 15px;
+    color: #f5f5f5;
+    padding: 32px;
+	margin-top: 50px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+}
