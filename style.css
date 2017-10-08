@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  font-family: 'Dancing Script', cursive;
   background-color: #E8F5CC;
 }
 
@@ -223,14 +222,10 @@ margin:5px;
   -webkit-transform: rotateY(315deg) translateZ(485px);
 }
 
-img {
+.image>img {
   width:100%;
   position: relative;
   top: -30%;
-}
-
-.footer_fb_image {
-  width: auto;
 }
 
 h4 {
@@ -245,25 +240,73 @@ h4 {
   margin-top: 100px;
 }
 
+/* footer CSS ---------------------------------------------------------------------------------*/
+
 footer {
     background-color: #223B25;
-	border-radius: 15px;
-    color: #f5f5f5;
-    padding: 32px;
-	margin-top: 50px;
-}
-
-footer a {
     color: #f5f5f5;
 }
 
-footer a:hover {
-    color: #777;
-    text-decoration: none;
+.link_info_container{
+  position: relative;
+  margin-top: 15px;
+}
+.footer_up_btn {
+  position: absolute;
+  right: 0px;
+}
+.footer_soc_icon {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+.link_info_container>a {
+  color: white;
+}
+
+.link_info_container>a:hover {
+  color: #5da265;
+}
+
+.footer_navigation_bar{
+  padding: 10px;
+}
+.footer_navigation_bar>ul {
+  margin-left: 0;
+  padding: 0;
+}
+.footer_navigation_bar>ul>li {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+.footer_navigation_bar>ul>li>a {
+  color: white;
+}
+
+.horizontal {
+  border-left: 3px solid;
+}
+
+.footer_sub_footer {
+  background-color: #D7EFA8;
+  color: #223B25;
+  padding: 5px;
+}
+
+.footer_sub_footer>p:first-child {
+  text-transform: uppercase;
+}
+
+.footer_sub_footer>p:nth-child(2) {
+  margin: 0;
+}
+
+/* media queries ------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-
 
 }
