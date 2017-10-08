@@ -109,7 +109,7 @@ h4 {
   text-shadow: 5px 5px 10px #cc6699;
   margin: 5px;
   font-style: oblique;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 a.thumbnail {
@@ -126,6 +126,27 @@ a.thumbnail {
 
 .thumbnail img { 
   visibility: hidden;
+}
+
+/* show more bottom button */
+
+.buttom_btn {  
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: .5em 1em;
+  width: 40%;
+  margin: auto;
+} 
+
+.buttom_btn > i {
+  padding-left: .3em;
+  padding-right: .3em;
+}
+
+.buttom_btn:hover {
+  background-color: #95d097;
+  color: white;
+  cursor: pointer;
 }
 
 

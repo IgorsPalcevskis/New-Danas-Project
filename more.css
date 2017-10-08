@@ -34,7 +34,7 @@ font-weight: bold;
 	
 }
 h2:hover {
-	font-weight: bold;
+
   text-shadow: 3px 3px 5px #95d097;
 }
 
@@ -44,37 +44,34 @@ h2:hover {
 #myNavbar ul li a{
 	margin: 3px;
 border-radius: 15px;
-color: white;	
+color: #FFE90B;	
 }
 
 #myNavbar ul li a:hover {
-color: red;	
+color: #742E8D;	
+border-radius: 15px;
+}
+
+.navbar ul li:hover {
+	background-color: #D7EFA8;
+	border-radius: 15px;
 }
 
 #myNavbar ul li:hover {
-border-style: dotted;
-border-width: 2px;
-border-color: red;
 border-radius: 15px;
-}
 
-.navbar-inverse .navbar-toggle {
-    border-color: white;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-  background-color: red;
 }
 
 .navbar {
-background-color: #008000;
-border-radius: 15px;
+background-color: #223B25;
 border: transparent;
 }
 
+
+
 .navbar a {
 
-color: white;
+color: #FFE90B;
 font-weight: bold;
 padding:5px;
 margin:5px;	
@@ -82,16 +79,26 @@ margin:5px;
 
 .navbar-brand p {
 font-size: 23px;
-color: black;
+color: #D7EFA8;
   font-style: oblique;
 font-weight: bold;
 padding:5px;
 margin:5px;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: black;
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #D7EFA8;
 }
+
+
+#myNavbar .active a {
+	color: #223B25;
+}
+
+#myNavbar .active a:hover {
+	color: #FFE90B;
+}
+
 
 .media-object {
 	margin:2px;
